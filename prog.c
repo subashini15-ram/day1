@@ -11,5 +11,6 @@ int main()
     price= price-(price*discount/100);
     total=price+(price*gst/100);
     printf("final amount to pay: total");
+       printf("thank you");
     return 0;
 }
