@@ -1,12 +1,13 @@
 #include<studio.h>
 int main()
 {
-       int price,discount,gst,total; 
+       float price,discount,gst,total; 
        printf("enter product price:");
-       scanf("%p", &price);
+       scanf("%f", &price);
        printf("enter the discount percentage:");
-       scanf("%d", &discount);
-       printf("%f", &gst);
+       scanf("%f", &discount);
+       printf("enter gst percentage:");
+       scanff("%f", &gst);
 
     price= price-(price*discount/100);
     total=price+(price*gst/100);
