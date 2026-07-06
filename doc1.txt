@@ -1,0 +1,1 @@
+install git and git extension. then install desktop docker and vs code. login GitHub using your email. create username and give username and email in git through vs code. clone the repository. 
